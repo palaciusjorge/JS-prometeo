@@ -24,3 +24,5 @@ function mixedAverage(list){
     return average
 }
 console.log(mixedAverage(mixedElements));
+// ¿Y si tuviesemos un booleano u otra lista anidada? Dentro de una lista podemos almacenar cualquier objeto, ¿cómo se haría eso? ¿Anidando else if?
+//
