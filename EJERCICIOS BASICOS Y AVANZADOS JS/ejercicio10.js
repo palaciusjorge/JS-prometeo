@@ -4,7 +4,7 @@ function average(numberList) {
   for(let i =0; i < numberList.length; i++){
     suma =+ numberList[i];
   }
-  let average = numberList.length;
+  let average = suma / numberList.length;
   return average;
 }
 console.log(average(numbers));
