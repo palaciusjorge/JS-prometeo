@@ -10,7 +10,8 @@ function swap(array, index1, index2) {
 }
 
 /* 
-Primera solución que se me habñia ocurrido, no sabía que era la desestructuración en JS.
+Primera solución que se me había ocurrido, no sabía que era la desestructuración en JS.
+¿Cuál es más correcta?
 
 function swap (array, index1, index2){
     const temp = array[index1]
@@ -19,4 +20,3 @@ function swap (array, index1, index2){
     }
 */
 console.log(swap(fantasticFour, 0, 1));
-
