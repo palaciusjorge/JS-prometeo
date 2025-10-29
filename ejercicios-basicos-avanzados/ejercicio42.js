@@ -1,0 +1,22 @@
+const fantasticFour = [
+  "La antorcha humana",
+  "Mr. Fantástico",
+  "La mujer invisible",
+  "La cosa",
+];
+function swap(array, index1, index2) {
+  [array[index1], array[index2]] = [array[index2], array[index1]]; //desestructuracion
+  return array;
+}
+
+/* 
+Primera solución que se me habñia ocurrido, no sabía que era la desestructuración en JS.
+
+function swap (array, index1, index2){
+    const temp = array[index1]
+    array[index1] = array[index1];
+    array[index2] = temp;
+    }
+*/
+console.log(swap(fantasticFour, 0, 1));
+
