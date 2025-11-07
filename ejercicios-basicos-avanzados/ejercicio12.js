@@ -11,7 +11,7 @@ const duplicates = [
   'pasta',
   'soda'
 ];
-function removeDuplicates(arr){
+const removeDuplicates = (arr) => {
     const resultado = []
     for(let elemento of arr){
         if(!resultado.includes(elemento)){

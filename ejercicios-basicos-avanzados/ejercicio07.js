@@ -1,4 +1,4 @@
-function greaterNumber(numberOne, numberTwo) {
+const greaterNumber = (numberOne, numberTwo) => {
   if (numberOne > numberTwo) {
     return numberOne;
   } else {

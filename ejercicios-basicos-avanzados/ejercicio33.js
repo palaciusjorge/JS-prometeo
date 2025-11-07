@@ -11,7 +11,7 @@ const capitals = {
   Ireland: 'Dublin'
 };
 
-function getCapital(country) {
+const getCapital = (country) => {
     if (capitals[country]) {
         return `La capital de ${country} es ${capitals[country]}.`;
     } else {

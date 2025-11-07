@@ -11,7 +11,7 @@ const actors = [
   { name: 'Cate Blanchett', born: 1969 }
 ];
 
-function calculateActorsAges(actors) {
+const calculateActorsAges = (actors) => {
   const currentYear = new Date().getFullYear();
   const actorsWithAges = [];
   for (let actor of actors){

@@ -10,7 +10,7 @@ const mixedElements = [
   8,
   "Hola mundo",
 ];
-function mixedAverage(list){
+const mixedAverage = (list) => {
     let sum = 0;
     for(let i = 0; i < list.length; i++){
         if (typeof(list[i]) === 'string'){

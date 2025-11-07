@@ -1,7 +1,7 @@
 const pokemonImage = document.querySelector('.random-image');
 
 // Generar un número aleatorio entre 1 y 151
-function getRandomPokemonId() {
+const getRandomPokemonId = () => {
     return Math.floor(Math.random() * 151) + 1;
 }
 

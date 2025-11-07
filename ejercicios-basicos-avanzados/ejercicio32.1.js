@@ -11,7 +11,7 @@ const xMen = [
   { name: 'Mystique', year: 1978 }
 ];
 
-function findOldestXMen(xMen) {
+const findOldestXMen = (xMen) => {
     let oldest = xMen[0];
     for (let character of xMen){
         if (character.year < oldest.year){

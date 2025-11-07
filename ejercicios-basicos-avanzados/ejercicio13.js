@@ -11,7 +11,7 @@ const names = [
   'Jessica',
   'Marc'
 ];
-function buscarNombre(arr, valor) {
+const buscarNombre = (arr, valor) => {
   const indice = arr.indexOf(valor);
 
   if (indice !== -1) {

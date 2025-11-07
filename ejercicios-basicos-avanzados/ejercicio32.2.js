@@ -13,7 +13,7 @@ const xMen = [
   { name: 'Mystique', year: 1978 }
 ];
 
-function findOldestGroup(xMen) {
+const findOldestGroup = (xMen) => {
     let oldestYear = xMen[0].year;
   
     for (let character of xMen) {

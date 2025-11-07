@@ -1,5 +1,5 @@
 //Parte 1
-function findArrayIndex(array, text) {
+const findArrayIndex = (array, text) => {
     for (let i = 0; i < array.length; i++) {
     if (array[i] === text) {
       return i;
@@ -22,7 +22,7 @@ console.log(findArrayIndex(mainCharacters, "Rey"));
 console.log(findArrayIndex(mainCharacters, "Darth Vader")); 
 console.log(findArrayIndex(mainCharacters, "Han Solo"))
 //Parte 2
-function removeItem(array, text){
+const removeItem = (array, text) => {
     const index = findArrayIndex(array, text);
     if (index !== -1) {           
         array.splice(index, 1); 

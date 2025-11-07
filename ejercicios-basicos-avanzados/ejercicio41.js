@@ -1,4 +1,4 @@
-function rollDice(faces){
+const rollDice = (faces) => {
     //no hay randint como en python
     return Math.floor(Math.random() * faces) + 1;
 }
